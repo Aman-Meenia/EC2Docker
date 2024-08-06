@@ -1,0 +1,9 @@
+services:
+  next-auth:
+    build: .
+    container_name: next-auth
+    restart: always
+    ports:
+      - 3000:3000
+    volumes:
+      - .:/app

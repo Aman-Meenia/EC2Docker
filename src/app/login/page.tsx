@@ -27,7 +27,7 @@ const LoginPage = () => {
     e.preventDefault(); // Prevent the default form submission
     setIsSubmitting(true);
     console.log("Data is ", data);
-    const response = await signIn("google", {});
+    const response = await signIn("github", {});
     // const response = await signIn("credentials", {
     //   name: data.name,
     //   password: data.password,
